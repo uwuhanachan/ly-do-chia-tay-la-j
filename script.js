@@ -40,7 +40,7 @@
 							achievBanner.classList.add(achievEarnClass);
 							setTimeout(() => {
 								achievBanner.classList.remove(achievEarnClass);
-							},2000);
+							},3000);
 							achievName.innerHTML = a.name;
 							achievReq.innerHTML = "Được " + numberF.format(a.pts) + "px rồi cơ đấy";
 						}
